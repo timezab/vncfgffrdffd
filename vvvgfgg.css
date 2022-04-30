@@ -1,0 +1,18 @@
+body {
+    font-family: sans-serif;
+    background-image: linear-gradient(gold,white,blue);
+}
+p{
+    color: rosybrown;
+    font-size: 16px;
+    border: salmon 6px dotted;
+    width:340px;
+    box-shadow: 7px 7px 5px 0 blue;
+
+}
+p:hover{
+    color:red;
+    box-shadow: 12px 12px 10px 0 firebrick;
+    font-size: 50px;
+    transition: 6s linear;
+}
